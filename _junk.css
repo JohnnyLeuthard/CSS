@@ -1,0 +1,99 @@
+
+.collapsibleList li > input + * {
+ display: none;
+}
+ 
+.collapsibleList li > input:checked + * {
+	display: block;
+}
+
+.collapsibleList li > input {
+	display: none;
+}
+
+.collapsibleList label {
+	cursor: pointer;
+}
+
+ul {
+	background-color: #8899D1;
+}
+ 
+h1, h3, h4, h5, p {
+	display: block;
+	/* display: inline;  */
+	/* display: inline-block;  */
+	font-size: 28px;
+	/* font-style: bold;  */
+	text-align: center;
+	text-decoration: underline;
+	color: #FFC2B3;
+	/* border: 1px solid black; */
+	/* margin: 22px; */
+	margin-bottom: 22px;
+	margin-top: 22px;
+	margin-left: 32px;
+	padding: 12px;
+	background-color: #061319;
+	width: 50%;
+}
+
+th, tr, td {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid black;
+}
+
+th {
+	background-color: green;
+	text-align: center;
+}
+
+table {
+	background-color: white;	
+}
+
+h1 {
+	background-color: orange;
+	color: white;
+	border: 7px solid red;
+}
+
+h2 {
+	text-align: center;
+	color: blue;
+	background-color: yellow;
+	padding: 8px;
+	border: 3px solid black;
+}
+
+body {
+	background-color: gray;
+}
+
+#testid {
+	color: Black;
+	font-size: 26px;
+	border: 3px solid black;
+}
+
+#listitem {
+		color: green;
+}
+
+#StoppedService {
+	background-color: Red;
+	color: #930000;
+}
+
+#Disabled {
+	color: #E03A08;
+}
+
+#true {
+	color: green;
+}
+
+#false {
+	color: red;
+}
