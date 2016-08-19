@@ -18,18 +18,26 @@
 ul {
 	background-color: #8899D1;
 }
+
+
+#collapsibleListheadder {
+	color: Black;
+	font-size: 18px;
+}
  
 h1, h3, h4, h5, p {
 	display: block;
-	/* display: inline;  */
-	/* display: inline-block;  */
-	font-size: 28px;
-	/* font-style: bold;  */
-	text-align: center;
+	/* 
+	display: inline;
+	display: inline-block;
+	font-style: bold;
+	border: 1px solid black;
+	margin: 22px;
 	text-decoration: underline;
+	*/
+	font-size: 28px;
+	text-align: center;
 	color: #FFC2B3;
-	/* border: 1px solid black; */
-	/* margin: 22px; */
 	margin-bottom: 22px;
 	margin-top: 22px;
 	margin-left: 32px;
@@ -54,9 +62,13 @@ table {
 }
 
 h1 {
-	background-color: orange;
-	color: white;
-	border: 7px solid red;
+	color: yellowgreen;
+	text-decoration: underline;
+	background-color: black;
+	width:200px; 
+	height:100px;
+	padding:10px;
+	border:10px outset yellowgreen;
 }
 
 h2 {
@@ -71,11 +83,6 @@ body {
 	background-color: gray;
 }
 
-#testid {
-	color: Black;
-	font-size: 26px;
-	border: 3px solid black;
-}
 
 #listitem {
 		color: green;
@@ -96,4 +103,11 @@ body {
 
 #false {
 	color: red;
+}
+
+
+
+#datestamp {
+	display:block;
+	
 }
