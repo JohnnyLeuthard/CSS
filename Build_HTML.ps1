@@ -3,14 +3,18 @@ $Computername = 'mn-Credit08'
 $Computername = $env:COMPUTERNAME
 
 # cleanup PS environment
-Remove-Item $HTMLFile -ea 0 
-Remove-Variable Temp,temp2,temp2 -ea 0 
 
 # Set some variables
 $StyleSheet = 'C:\Users\T910411\Desktop\Temp\HTML\main.css'
 #$StyleSheet = 'main.css'
 $date = (Get-Date | Out-String).trim()
 $HTMLFile = 'C:\Users\T910411\Desktop\Temp\HTML\Testing.html'
+
+Remove-Item $HTMLFile -ea 0 
+Remove-Variable Temp,temp2,temp2 -ea 0 
+
+
+
 $Title = 'CSS TESTING'
 $Header = 'My CSS Testing'
  
