@@ -25,6 +25,9 @@ ul {
 	font-size: 18px;
 }
  
+ 
+ 
+ 
 h1, h3, h4, h5, p {
 	display: block;
 	/* 
@@ -44,6 +47,7 @@ h1, h3, h4, h5, p {
 	padding: 12px;
 	background-color: #061319;
 	width: 50%;
+
 }
 
 th, tr, td {
@@ -53,22 +57,35 @@ th, tr, td {
 }
 
 th {
-	background-color: green;
+	/* background-color: green;  */
+	background-color: #9BD401; /* greenish color */
 	text-align: center;
 }
 
+td {
+	/* background-color: #3BE89F; */
+	background-color: #8ADED0;
+	background-color: #C4A48A;
+	table-layout: auto;
+	text-align: left;
+}
+
 table {
-	background-color: white;	
+	/* background-color: white; */
+	background-color: black;
 }
 
 h1 {
 	color: yellowgreen;
 	text-decoration: underline;
 	background-color: black;
-	width:200px; 
-	height:100px;
+	/* width:400px;  */
+	width: 65%;
+	/* height:100px; */
 	padding:10px;
-	border:10px outset yellowgreen;
+	border:8px outset gray;
+	border-radius: 35px; */
+
 }
 
 h2 {
@@ -79,10 +96,15 @@ h2 {
 	border: 3px solid black;
 }
 
+h3 {
+	/* border-radius: 35px; */
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
 body {
 	background-color: gray;
 }
-
 
 #listitem {
 		color: green;
@@ -105,9 +127,26 @@ body {
 	color: red;
 }
 
-
-
 #datestamp {
-	display:block;
 	
+}
+
+#nav {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: gray;
+}
+
+#nav2 {
+	background-color: rgb(235, 222,12);  /* y7ellowish color */
+}
+
+#blank {
+	background-color: orange;
+}
+
+#warning {
+	background-color: Red;
+	color: #930000;
+	text-align: center;
 }
